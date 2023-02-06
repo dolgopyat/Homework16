@@ -48,4 +48,14 @@ public class PassengerCar extends Car implements Competing{
             System.out.println("Тип кузова авто: " + typeOfBody);
         }
     }
+
+    @Override
+    public boolean service() {
+        return Math.random() > 0.5;
+    }
+
+    @Override
+    public void repair() {
+        System.out.println("Автомобиль " + getBrand() + " " + getModel() + " починен");
+    }
 }

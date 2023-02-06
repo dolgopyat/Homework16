@@ -48,4 +48,14 @@ public class Truck extends Car implements Competing{
             System.out.println("Грузоподъёмность авто: " + from + to);
         }
     }
+
+    @Override
+    public boolean service() {
+        return Math.random() > 0.7;
+    }
+
+    @Override
+    public void repair() {
+        System.out.println("Автомобиль " + getBrand() + " " + getModel() + " починен");
+    }
 }

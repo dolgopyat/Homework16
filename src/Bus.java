@@ -46,4 +46,15 @@ public class Bus extends Car implements Competing{
             System.out.println("Вместимость автобуса: от " + capacity.getFrom() + " чел. до " + capacity.getTo() + " чел.");
         }
     }
+
+    @Override
+    public boolean service() {
+        System.out.println("Автобус " + getBrand() + " " + getModel() + " в диагностике не нуждается");
+        return true;
+    }
+
+    @Override
+    public void repair() {
+        System.out.println("Автобус " + getBrand() + " " + getModel() + " починен");
+    }
 }

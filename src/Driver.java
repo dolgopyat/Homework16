@@ -43,4 +43,9 @@ public class Driver <B extends PassengerCar, C extends Truck, D extends Bus>  {
     public void setExperience(double experience) {
         this.experience = experience;
     }
+
+    @Override
+    public String toString() {
+        return name + ", стаж вождения: " + experience + "лет, категория: " + license;
+    }
 }
