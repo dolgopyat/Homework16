@@ -57,4 +57,5 @@ public class Bus extends Car implements Competing{
     public void repair() {
         System.out.println("Автобус " + getBrand() + " " + getModel() + " починен");
     }
+
 }

@@ -16,4 +16,5 @@ public enum Weight {
     public Double getTo() {
         return to;
     }
+
 }

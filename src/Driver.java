@@ -48,4 +48,5 @@ public class Driver <B extends PassengerCar, C extends Truck, D extends Bus>  {
     public String toString() {
         return name + ", стаж вождения: " + experience + "лет, категория: " + license;
     }
+
 }

@@ -58,4 +58,5 @@ public class PassengerCar extends Car implements Competing{
     public void repair() {
         System.out.println("Автомобиль " + getBrand() + " " + getModel() + " починен");
     }
+
 }

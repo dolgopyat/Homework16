@@ -22,4 +22,5 @@ public class Sponsor {
     public String toString() {
         return name + ", сумма поддержки: " + amount;
     }
+
 }

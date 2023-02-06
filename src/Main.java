@@ -75,4 +75,5 @@ public class Main {
         System.out.println("Механик: " + car.getMechanics());
         System.out.println();
     }
+
 }

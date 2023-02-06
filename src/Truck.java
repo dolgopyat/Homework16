@@ -58,4 +58,5 @@ public class Truck extends Car implements Competing{
     public void repair() {
         System.out.println("Автомобиль " + getBrand() + " " + getModel() + " починен");
     }
+
 }

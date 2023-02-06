@@ -31,4 +31,5 @@ public class Mechanic<T extends Car> {
     public String toString() {
         return name + " " + surname + " из " + company;
     }
+
 }
